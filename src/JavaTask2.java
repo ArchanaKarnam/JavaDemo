@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class JavaPracTask2 {
+public class JavaTask2 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int extraDays=0;

@@ -1,4 +1,4 @@
-public class JavaPracTask1 {
+public class JavaTask1 {
     public static void main(String[] args) {
         int x = 30;
         int y = 40;
