@@ -1,11 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
 public class JavaTask2 {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        int extraDays=0;
+        int extraDays;
         int sal=0;
-        int TotalHours=0;
-        int weeks[]=new int[7];
+        int TotalHours;
+        int[] weeks =new int[7];
         for(int i=0;i<7;i++){
             weeks[i]=sc.nextInt();
         }
