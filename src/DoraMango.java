@@ -6,9 +6,13 @@ public class DoraMango {
         int m=sc.nextInt();
         int mango=sc.nextInt();
         int a[][]=new int[n][m];
+        int k=0;
         for(int i=0;i<n;i++){
             a[i][0]=-1;
             a[i][m-1]=-1;
+        }
+        for(int i=0;i<m;i++){
+            a[0][i]=-1;
         }
         int count=1;
         for(int i=0;i<n;i++){
